@@ -2,7 +2,6 @@ declare type IHAlign = "left" | "center" | "right";
 declare type IVAlign = "top" | "center" | "bottom";
 declare module 'cytoscape-node-html-label';
 declare var define: any;
-declare var cytoscape: typeof cytoscape;
 interface CytoscapeNodeHtmlParams {
   query?: string;
   halign?: IHAlign;
